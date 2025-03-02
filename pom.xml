@@ -28,7 +28,7 @@
     <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.24</version> <!-- Or the latest version -->
+    <version>1.18.30</version> <!-- Or the latest version -->
     <scope>provided</scope>
 </dependency>
   </dependencies>
@@ -47,7 +47,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.10.1</version> <!-- Updated version -->
+          <version>3.11.0</version> <!-- Updated version -->
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
