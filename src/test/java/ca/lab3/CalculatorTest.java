@@ -17,6 +17,7 @@ public class CalculatorTest {
     
     @Test
     public void testAdd() {
+        calculator = new Calculator(); // Temporary fix
         assertEquals(15, calculator.add(10, 5));
         assertEquals(0, calculator.add(0, 0));
         assertEquals(-5, calculator.add(-10, 5));
